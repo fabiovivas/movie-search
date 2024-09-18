@@ -3,7 +3,7 @@ const sut = require('../../src/generate-index/format-file')
 
 jest.mock('fs')
 
-describe('sut (processFile)', () => {
+describe('formatFile', () => {
   const filePath = '/path/to/file.txt'
 
   beforeEach(() => {

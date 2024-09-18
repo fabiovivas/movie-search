@@ -4,7 +4,7 @@ const formatFile = require('../../src/generate-index/format-file')
 
 jest.mock('../../src/generate-index/format-file')
 
-describe('sut (buildDividedIndex)', () => {
+describe('buildDividedIndex', () => {
   const folderPath = '/folder'
   const files = ['file1.txt', 'file2.txt']
 
