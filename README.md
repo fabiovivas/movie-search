@@ -37,3 +37,12 @@ Este programa foi desenvolvido para buscar por uma sentença em um conjunto de a
 1. **Gerar testes unitários e cobertura de testes**
     ```bash
    npm test
+
+## Futuras melhorias
+
+- Atualmente a pasta com os filmes estão no próprio projeto. Uma melhoria seria coloca-las em um servidor.
+- Atualmente a pasta com os arquivos indexados são gerados no próprio projeto. Em consonancia com a alteração anterior é interessante grava-la em um servidor.
+- Com as duas alterações anteriores, os caminhos das pastas e arquivos devem ir para um arquivo .env
+- Passar a aplicação para typescript
+- Fazer uma programação orientada à interfaces, para ficar mais desacoplado.
+
