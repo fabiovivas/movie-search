@@ -2,10 +2,6 @@
 
 Este programa foi desenvolvido para buscar por uma sentença em um conjunto de arquivos de dados de filmes e exibir quais e quantos arquivos contêm a palavra-chave. A busca é realizada utilizando indexação invertida duplicada para garantir uma pesquisa eficiente.
 
-## Introdução
-
-Este projeto envolve a busca de informações em um conjunto de arquivos que contêm dados sobre filmes, incluindo título, ano, elenco e equipe. Os dados estão armazenados na pasta `data`.
-
 ## Requisitos
 
 - Node.js
@@ -15,8 +11,10 @@ Este projeto envolve a busca de informações em um conjunto de arquivos que con
 1. **Clonar o projeto para sua máquina ou fazer o download**
     ```bash
    git clone https://github.com/fabiovivas/movie-search.git
-   
+
 2. **Clonar o projeto para sua máquina ou fazer o download**
+    ```bash
+   npm install
 
 ## Instruções de Uso
 
@@ -26,3 +24,10 @@ Este projeto envolve a busca de informações em um conjunto de arquivos que con
 
    ```bash
    node src/generate-index/index.js
+
+2. **Rodar a aplicação**
+
+   Para executar o programa rode o seguinte comando:
+
+   ```bash
+   node src/index.js "sentença para pesquisa"
