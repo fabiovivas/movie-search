@@ -1,5 +1,6 @@
 const findMatchingFiles = (words, index) => {
     let matchingFiles = null
+    if (words.length === 0) return []
 
     for (const word of words) {
         if (!index[word]) return []
