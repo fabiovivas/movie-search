@@ -31,3 +31,9 @@ Este programa foi desenvolvido para buscar por uma sentença em um conjunto de a
 
    ```bash
    node src/index.js "sentença para pesquisa"
+
+## Instruções de testes
+
+1. **Gerar testes unitários e cobertura de testes**
+    ```bash
+   npm test
