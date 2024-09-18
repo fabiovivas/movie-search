@@ -12,7 +12,7 @@ Este programa foi desenvolvido para buscar por uma sentença em um conjunto de a
     ```bash
    git clone https://github.com/fabiovivas/movie-search.git
 
-2. **Clonar o projeto para sua máquina ou fazer o download**
+2. **Instalar dependencias**
     ```bash
    npm install
 
